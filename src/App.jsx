@@ -2,44 +2,82 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import UserCard from './UserCard'
 import TimeCard from './TimeCard'
+import UserCard from './UserCard'
+import Game from "./Game"
+import App2 from './App2'
 
-function App ()  {
+// const App = () => {
 
-  return (
-      <div className="container mt-5">
-        <div className="row ">
-          <div className="col">
-           <UserCard nombre='Jeremy Robson' imagen='url(../images/image-jeremy.png)' />
-          </div>
-          <div className="col-9">
-            <div className="row">
+<App2/>
 
-            
-          <div className="col-4">
-          <TimeCard activity='Work' horas ="32hrs" info="Last Week - 36hrs" fondo="hsl(15, 100%, 70%)" icon="url(../images/icon-work.svg)" />
-          </div>
-          <div className="col-4">
-          <TimeCard activity='Play' horas ="10hrs" info="Last Week - 8hrs" fondo="hsl(195, 74%, 62%)" icon="url(../images/icon-play.svg)" />
-          </div>
-          <div className="col-4">
-          <TimeCard activity='Study' horas ="4hrs" info="Last Week - 7hrs" fondo="hsl(348, 100%, 68%)" icon="url(../images/icon-study.svg)" />
-          </div>
-          <div className="col-4">
-          <TimeCard activity='Exercise' horas="4hrs" info="Last Week - 5hrs" fondo="hsl(145,58%,55% )" icon="url(../images/icon-exercise.svg)" />
-          </div>
-          <div className="col-4">
-          <TimeCard activity='Social' horas ="5hrs" info="Last Week - 10hrs" fondo="hsl(264, 64%, 52%)" icon="url(../images/icon-social.svg)"  />
-          </div>
-          <div className="col-4">
-          <TimeCard activity='Self Care' horas ="2hrs" info="Last Week - 2hrs" fondo="hsl(43, 84%, 65%)" icon="url(../images/icon-self-care.svg)" />
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
-  )
-}
+//   const [numero , setNumero] = useState(0);
 
-export default App
+//   function cambiarNumero()
+//   {
+//     if(numero > 0){
+//     setNumero(numero - 1);
+//     console.log(numero);
+//   }
+//   }
+//   function cambiarnumeroMas()
+//   {
+//     if(numero < 20){
+
+//       setNumero(numero + 1);
+//       console.log(numero);
+//     }
+//   }
+
+//   return (
+    
+//     <div>
+//       <h1 className='text-black'>Numero: {numero}</h1>
+//       <button onClick={cambiarnumeroMas}>Incrementar</button>
+//       <button onClick={cambiarNumero}>decrementar</button>
+//       <Game/>
+//     </div>
+    // <div>
+    //   <div className="container mt-5">
+    //     <div className="row">
+    //       <div className="col-3">
+    //         <UserCard nombres="Jeremy Robson" imagenes="url(../imagenes/collage.jpg)"/>
+
+    //       </div>
+    //       <div className="col-9">
+    //         <div className="row">
+    //           <div className="col-4">
+    //             <TimeCard activity="Work" hours="32hrs" fondo="hsl(15, 100%, 70%)" time="36hrs" icon="url(../imagenes/icon-work.svg)" />
+
+    //           </div>
+
+    //           <div className="col-4">
+    //             <TimeCard activity="Play" hours="10hrs" fondo="hsl(195, 74%, 62%)" time="8hrs" icon="url(../imagenes/icon-play.svg)" />
+
+    //           </div>
+    //           <div className="col-4">
+    //             <TimeCard activity="Study" hours="4hrs" fondo="hsl(348, 100%, 68%)" time="7hrs" icon="url(../imagenes/icon-study.svg)" />
+    //           </div>
+
+    //           <div className="col-4">
+    //             <TimeCard activity="Exercise" hours="4hrs" fondo="hsl(145, 58%, 55%)" time="5hrs" icon="url(../imagenes/icon-exercise.svg)" />
+
+    //           </div>
+    //           <div className="col-4">
+    //             <TimeCard activity="Social" hours="5hrs" fondo="hsl(264, 64%, 52%)" time="10hrs" icon="url(../imagenes/icon-social.svg)" />
+
+    //           </div>
+    //           <div className="col-4">
+    //             <TimeCard activity="Self Care" hours="2hrs" fondo="hsl(43, 84%, 65%)" time="2hrs" icon="url(../imagenes/icon-self-care.svg)" />
+
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+//   )
+// }
+
+export default App2
